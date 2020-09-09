@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name= " Test Automation Suite">
+	
+	<test name="CRM App Test">
+		
+		<parameter name="emailid" value="manishpatel1985@googlemail.com"/>
+		<parameter name="password" value="Love1234"/>
+		<parameter name="url" value="https://freecrm.com/"/>
+	
+	<classes>
+		<class name ="com.testNg.test.ParameterTestUsingXMLFile"/>
+		<class name ="com.testNg.SouthallTravelTest"/>
+		
+	</classes>
+	
+	</test> 
+	</suite> 

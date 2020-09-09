@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CRM App Test Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CRM App Test(failed)">
+    <parameter name="password" value="Love1234"/>
+    <parameter name="emailid" value="manishpatel1985@googlemail.com"/>
+    <classes>
+      <class name="com.testNg.ParameterTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="crmLoginTest" invocation-numbers="0"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testNg.ParameterTest -->
+    </classes>
+  </test> <!-- CRM App Test(failed) -->
+</suite> <!-- Failed suite [CRM App Test Automation Suite] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ RetryFailedTestSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Analyzer.MyTransformer"/>
+  </listeners>
+  <test thread-count="5" name="RetryMultipleFailedTestCases(failed)">
+    <classes>
+      <class name="com.testNg.TestNgFeatures">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.testNg.TestNgFeatures -->
+    </classes>
+  </test> <!-- RetryMultipleFailedTestCases(failed) -->
+</suite> <!-- Failed suite [ RetryFailedTestSuite] -->
